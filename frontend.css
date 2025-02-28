@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+div.forms{
+    background-color:antiquewhite;
+    max-width:400px;
+    min-height:500px;
+  
+    
+    margin:0 auto;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+div.forms h1.h1{
+    text-align:center;
+    
+}
+div.forms form{
+    text-align:center;
+    margin:30px;
+}
+input[type="text"],input[type="number"],input[type="submit"],input[type="datetime-local"]{
+    min-width:300px;
+    padding:10px;
+    margin-bottom:30px;
+    border-radius:5px;
+}
+div.container{
+    background-image:url('pic1.jpg') ;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    max-width:max(90vw,1000px);
+    height:100vh;
+}
