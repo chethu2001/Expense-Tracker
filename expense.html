@@ -10,9 +10,12 @@
     <div class="container">
         <h1>Expense Tracker</h1>
         <form id="expense-form">
+            
             <input type="text" id="description" placeholder="Description" required>
             <input type="number" id="amount" placeholder="Amount" required>
+            <input type="date" name="date" id="date" placeholder="yy-mm-dd">
             <button type="submit">Add Expense</button>
+
         </form>
         <ul id="expense-list"></ul>
         <h3>Total: $<span id="total-amount">0</span></h3>
